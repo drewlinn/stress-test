@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.0.slim.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress-test">
+        <div class="form-group">
+          <p>Of the following, check all signs of stress that apply:</p>
+          <input type="checkbox" name="signs" value="Sleep loss"> Loss of sleep.<br>
+          <input type="checkbox" name="signs" value="Feeling of being overwhelmed"> Feeling overwhelmed.<br>
+          <input type="checkbox" name="signs" value="Appetite loss"> Loss of appetite.<br>
+          <input type="checkbox" name="signs" value="Chain smoking"> Chain smoking.<br>
+          <input type="checkbox" name="signs" value="Feeling of helplessness"> Feeling of helplessness or inability to get out of bed.<br>
+        </div>
+
+        <div class="form-group">
+          <p>Of the following, check all health conditions that apply: </p>
+          <input type="checkbox" name="symptoms" value="High blood pressure"> High blood pressure.<br>
+          <input type="checkbox" name="symptoms" value="Anxiety"> Anxiety.<br>
+          <input type="checkbox" name="symptoms" value="Depression"> Clinical depression.<br>
+          <input type="checkbox" name="symptoms" value="Headaches"> Headaches.<br>
+          <input type="checkbox" name="symptoms" value="Frequent colds and infections"> Frequent colds and infections.<br>
+        </div>
+
+        <div class="form-group">
+          <p>Of the following, check all coping methods that you use to reduce your stress: </p>
+          <input type="checkbox" name="coping-methods" value="meditation"> Meditation.<br>
+          <input type="checkbox" name="coping-methods" value="Time management"> Time management activities.<br>
+          <input type="checkbox" name="coping-methods" value="Petting a cat"> Pet a cat.<br>
+          <input type="checkbox" name="coping-methods" value="Exercise"> Exercise.<br>
+          <input type="checkbox" name="coping-methods" value="Another coping mechanism not listed">Another coping mechanism not listed here.<br>
+        </div>
+
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="stress-signs">
+        <p><b>You show all of the following signs:</b></p>
+      </span>
+      <br>
+      <span id="stress-symptoms">
+        <p><b>You display all of the following symptoms of stress:</b></p>
+      </span>
+      <br>
+      <span id="coping-mechanisms">
+        <p><b>You practice all of the following coping mechanisms:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
