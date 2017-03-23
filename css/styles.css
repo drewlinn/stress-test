@@ -1,11 +1,23 @@
+#good-job {
+  display: none;
+}
+
+#make-changes {
+  display: none;
+}
+
+#doomed {
+  display: none;
+}
+
 #stress-signs {
   display: none;
 }
 
-#stress-symptoms {
+#coping-mechanisms {
   display: none;
 }
 
-#coping-mechanisms {
+#stress-symptoms {
   display: none;
 }
